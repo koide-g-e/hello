@@ -1,0 +1,19 @@
+{
+  "name": "hello",
+  "version": "0.0.1",
+  "description": "\"helloworld repo\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/koide-g-e/hello.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/koide-g-e/hello/issues"
+  },
+  "homepage": "https://github.com/koide-g-e/hello#readme"
+}
