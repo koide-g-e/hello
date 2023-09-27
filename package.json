@@ -2,18 +2,19 @@
   "name": "hello",
   "version": "0.0.1",
   "description": "\"helloworld repo\"",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npm run build:live",
+    "build": "tsc -p .",
+    "build:live": "nodemon --watch 'src/**/*.ts' --exec \"ts-node\" src/index.ts"
   },
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/koide-g-e/hello.git"
   },
-  "author": "",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/koide-g-e/hello/issues"
-  },
-  "homepage": "https://github.com/koide-g-e/hello#readme"
+  "devDependencies": {
+    "@types/node": "^20.7.0",
+    "nodemon": "^3.0.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  }
 }
