@@ -1,12 +1,3 @@
 # hello
 
-## lists
-
-- list
-- list
-
-## checkboxes
-
-- check
-- check
-
+helloworld and eslint, prettier config
