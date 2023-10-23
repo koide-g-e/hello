@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "\"helloworld repo\"",
   "scripts": {
-    "start": "npm run build:live",
+    "start": "pnpm run build:live",
     "build": "tsc -p .",
     "build:live": "nodemon --watch 'src/**/*.ts' --exec \"ts-node\" src/index.ts"
   },
@@ -11,6 +11,10 @@
     "type": "git",
     "url": "git+ssh://git@github.com/koide-g-e/hello.git"
   },
+  "engines": {
+    "node": "20.8.1"
+  },
+  "packageManager": "pnpm@8.9.2",
   "devDependencies": {
     "@types/node": "^20.7.0",
     "@typescript-eslint/eslint-plugin": "^6.7.3",

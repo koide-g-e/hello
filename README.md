@@ -1,9 +1,15 @@
 # hello
 
+at first
+
+```shell
+enable corepack
+```
+
 helloworld and my eslint, prettier config
 
 ```shell
-% npm i --save-dev eslint \
+% pnpm add -D eslint \
     prettier \
     @typescript-eslint/eslint-plugin \
     @typescript-eslint/parser \
